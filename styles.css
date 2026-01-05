@@ -29,7 +29,17 @@ button1 {
 }
 
 accbutton {
+	outline: none;      
+	border: none;         
+	background: none;     
+	box-shadow: none;     
 	padding: 3rem 3rem;
     font-size: 1rem;
     cursor: pointer;
+}
+accbutton:hover,
+accbutton:focus,
+accbutton:action {
+	background: none;
+	box-shadow: none;
 }
