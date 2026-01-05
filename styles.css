@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #f4f4f4;
+    background-color: #000000;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -23,6 +23,12 @@ button {
 }
 
 button1 {
+	padding: 3rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+accbutton {
 	padding: 3rem 3rem;
     font-size: 1rem;
     cursor: pointer;
