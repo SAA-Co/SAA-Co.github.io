@@ -41,5 +41,8 @@ button {
     cursor: pointer;
     padding: 1rem;
     padding: 1rem 1rem;
+    position: fixed;
+    top: 0.0005rem;
+    right: 0.0005rem;
     color: #ffffff;
 }
