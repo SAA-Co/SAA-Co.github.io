@@ -10,26 +10,26 @@ const pbtn = document.getElementById("pbtn");
 
 // Financial Auditing Button
 fbtn.addEventListener("click", () => {
-    window.location.href = "Financial-Auditing.html";
+    window.location.href = "History/Financial-Auditing.html";
 });
 // Tax Button
 tbtn.addEventListener("click", () => {
-    window.location.href = "Tax.html";
+    window.location.href = "History/Tax.html";
 });
 // Bookkeeping Button
 bbbtn.addEventListener("click", () => {
-    window.location.href = "Bookkeeping.html";
+    window.location.href = "History/Bookkeeping.html";
 });
 // Business Advisory Button
 batn.addEventListener("click", () => {
-    window.location.href = "Business-Advisory.html";
+    window.location.href = "History/Business-Advisory.html";
 });
 // Compliance Support Button
 csbtn.addEventListener("click", () => {
-    window.location.href = "Compliance-Support.html";
+    window.location.href = "History/Compliance-Support.html";
 });
 // Payroll Button
 pbtn.addEventListener("click", () => {
-    window.location.href = "Payroll.html";
+    window.location.href = "History/Payroll.html";
 });
 
