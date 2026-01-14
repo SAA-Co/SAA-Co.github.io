@@ -10,7 +10,6 @@ body {
 }
 
 header {
-
     height: 10rem;
     color: rgb(255, 255, 255);
 }
@@ -37,7 +36,7 @@ button {
     align-items: flex-start;
     text-align: left;
     border-radius: 10px;
-    border: #333 2px solid;
+    border: #111 2px solid;
     cursor: pointer;
 }
 
@@ -48,8 +47,7 @@ button:hover {
 }
 
 #logo {
-    width: 15rem;
-    height: 15rem;
+    height: 10rem;
     
 }
 

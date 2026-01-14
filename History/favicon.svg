@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Black background -->
+  <rect width="32" height="32" fill="#000000"></rect>
+  
+  <!-- White SA. letters, slightly shifted right -->
+  <text x="16.5" y="22" text-anchor="middle" font-size="18" font-weight="700" letter-spacing="0" fill="#FFFFFF" font-family="Playfair Display, Georgia, serif">
+    SA.
+  </text>
+</svg>

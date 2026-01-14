@@ -3,8 +3,8 @@ console.log("script loaded");
 const body = document.body;
 const fbtn = document.getElementById("fbtn");
 const tbtn = document.getElementById("tbtn");
-const bbbtn = document.getElementById("bbbtn");
-const batn = document.getElementById("batn");
+const bkbtn = document.getElementById("bkbtn");
+const babtn = document.getElementById("babtn");
 const csbtn = document.getElementById("csbtn");
 const pbtn = document.getElementById("pbtn");
 
@@ -17,11 +17,11 @@ tbtn.addEventListener("click", () => {
     window.location.href = "History/Tax.html";
 });
 // Bookkeeping Button
-bbbtn.addEventListener("click", () => {
+bkbtn.addEventListener("click", () => {
     window.location.href = "History/Bookkeeping.html";
 });
 // Business Advisory Button
-batn.addEventListener("click", () => {
+babtn.addEventListener("click", () => {
     window.location.href = "History/Business-Advisory.html";
 });
 // Compliance Support Button
