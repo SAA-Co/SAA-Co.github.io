@@ -1,16 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600;700&family=Lora:wght@400&display=swap');
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
 body {
-    font-family: sans-serif;
-    background-color: #000;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline-section {
+  max-width: 900px;
+  margin: 5rem auto;
+  padding: 0 1.5rem;
+}
+
+.timeline-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0.6px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, #fff, rgba(255,255,255,0.15));
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -38px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background: #000;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+}
+
+.timeline-content {
+  margin-top: 0.6rem;
+  padding: 1.4rem 1.6rem;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.timeline-content h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1.8rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.timeline-content p {
+  margin: 0;
+  line-height: 1.65;
+  opacity: 0.85;
+  font-family: 'Lora', serif;
 }
 
 header {
     color: rgb(255, 255, 255);
+    position: absolute;
+    left: -200px;
+    top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 #logo {
     height: 10rem;
@@ -22,7 +118,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 #hmbtn{
@@ -30,4 +126,15 @@ main {
     border: none;
     background: none;
     cursor: pointer;
+}
+#loginbtn{
+    position: absolute;
+    right: -850px;
+    top: 100px;
+    color: #fff;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
 }

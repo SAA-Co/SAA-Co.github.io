@@ -7,11 +7,36 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow: hidden;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 header {
     height: 10rem;
     color: rgb(255, 255, 255);
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 
 main {
@@ -21,6 +46,8 @@ main {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
 }
 button {
     max-width: 20rem;
@@ -49,6 +76,18 @@ button:hover {
 #logo {
     height: 10rem;
     
+}
+
+#loginbtn{
+    position: fixed;
+    right: -200px;
+    top: 50px;
+    color: #fff;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 #fsvg {
