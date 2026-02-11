@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #0b8600;
+    background-color: #000000;
     margin: 0;
     padding: 0;
     display: flex;
@@ -56,20 +56,20 @@ button {
     height: 10rem;
     font-size: 1rem;
     overflow-wrap: break-word;
-    background-color: #0b8600;
+    background-color: #444444;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
     border-radius: 10px;
-    border: #1ba000 2px solid;
+    border: #222 2px solid;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #126b00;
-    border: rgb(30, 255, 0) 2px solid;
+    background-color: #777;
+    border: #aaa 2px solid;
     cursor: pointer;
 }
 
