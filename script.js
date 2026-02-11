@@ -7,6 +7,7 @@ const bkbtn = document.getElementById("bkbtn");
 const babtn = document.getElementById("babtn");
 const csbtn = document.getElementById("csbtn");
 const pbtn = document.getElementById("pbtn");
+ 
 
 // Financial Auditing Button
 fbtn.addEventListener("click", () => {
@@ -32,8 +33,6 @@ csbtn.addEventListener("click", () => {
 pbtn.addEventListener("click", () => {
     window.location.href = "History/Payroll.html";
 });
-
-// Login buttons: navigate to sign-in page from any folder
 const loginBtns = document.querySelectorAll('#loginbtn');
 if (loginBtns && loginBtns.length) {
     const target = window.location.pathname.includes('/History/') ? '../sign-in.html' : 'sign-in.html';
