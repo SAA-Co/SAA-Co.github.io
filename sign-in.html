@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
+    <title>SAA Co.</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
   </head>
   <body>
-    <main>
+    <main id="snmain">
         <header id="header">
             <button id="hmbtn">
             <img src="logo.png" alt="" id="logo">
             </button>
         <button id="loginbtn">Login</button>
         </header>
-
+        <div id="container">
+        <form action="">
+          <h1 id="lheader">Log In</h1><br><br><br><br><br>
+          <label for="username" id="label1">Username:</label><br><br>
+          <input type="text" name="Username" id="username" required="true"><br><br><br>
+          <label for="password" id="label1">Password:</label><br><br>
+          <input type="password" name="Password" id="password" required="true"><br><br><br>
+          <button id="snbtn" type="submit">Sign In</button><br><br><br><br><br><br>
+          <div id="su">Dont have an account?<a href="">Sign Up</a></div>
+        </form>
+        </div>
+        
     </main>
     <script>
         const hmbtn = document.getElementById('hmbtn');
